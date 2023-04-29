@@ -1,6 +1,14 @@
 import { togglepopup } from './popup.js';
 import { meal_url, base_url } from './restapi.js';
 import { btnclose, formdata } from './dom_elements.js';
+<<<<<<< HEAD
+=======
+import commentcounter from './countcomment.js';
+
+const commentdisplay = (content) => {
+  document.querySelector('.popup-comments').innerHTML = content;
+};
+>>>>>>> feature_finaltouch
 
 const commentpage = (list) => {
   document.getElementById('popupmeal-name').textContent = list.strMeal;
@@ -34,21 +42,34 @@ const mealbyid = async (id) => {
 
 const updatecomments = async (id) => {
   const url = `${base_url}/comments?item_id=${id}`;
+<<<<<<< HEAD
   document.querySelector('.popup-comments').innerHTML = '';
   document.getElementById('comment-count').textContent = '';
+=======
+  commentdisplay('');
+  commentcounter('');
+>>>>>>> feature_finaltouch
   try {
     const response = await fetch(url);
     if (response.ok) {
       const lists = await response.json();
+<<<<<<< HEAD
       document.getElementById('comment-count').textContent = `(${
         lists.length ?? 0
       })`;
+=======
+      commentcounter(lists.length);
+>>>>>>> feature_finaltouch
       let html = '';
       lists.forEach((list) => {
         html += `<p class="comment-history"><strong>${list.username} :</strong>${list.comment} on <strong>${list.creation_date}.</strong>
         `;
       });
+<<<<<<< HEAD
       document.querySelector('.popup-comments').innerHTML = html;
+=======
+      commentdisplay(html);
+>>>>>>> feature_finaltouch
     }
   } catch (error) {
     throw error;

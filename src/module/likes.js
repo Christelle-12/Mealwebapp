@@ -1,12 +1,13 @@
 import { base_url } from './restapi';
+import likecounter from './countlike.js';
+
 const renderlikes = (lists) => {
   lists.forEach((list) => {
     try {
       const id = `like${list.item_id}`;
       const like = `Liked ${list.likes}`;
-      const likepar = document.getElementById(id);
-      if (likepar) {
-        likepar.textContent = like;
+      if (document.getElementById(id)) {
+        likecounter(id, like);
       }
     } catch (error) {
       throw error;

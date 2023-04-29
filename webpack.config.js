@@ -1,5 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+<<<<<<< HEAD
+
+=======
+>>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
 module.exports = {
   mode: 'development',
   entry: {
@@ -37,4 +41,8 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec

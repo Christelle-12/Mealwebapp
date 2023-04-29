@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+import './assets/title.png';
+import './assets/main.css';
+=======
 import './assets/style.css';
-import './assets/title.png'
 import './assets/logo.png';
+import './assets/meal.jpg';
 import getcategories from './module/meal.js';
 import { ulelement } from './module/dom_elements.js';
 import addaction from './module/eventlistener.js';
@@ -40,3 +44,4 @@ const loading = async () => {
   addpopup();
 };
 loading();
+>>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec

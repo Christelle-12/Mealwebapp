@@ -1,35 +1,74 @@
 {
   "name": "mealwebapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web application for finding and saving meal recipes.",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo error",
+<<<<<<< HEAD
+    "test": "jest --coverage",
+=======
+    "test": "jest",
+>>>>>>> feature_finaltouch
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
   },
+<<<<<<< HEAD
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+=======
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Christelle-12/Mealwebapp.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "meal",
+    "recipe",
+    "web application"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Christelle-12/Mealwebapp/issues"
   },
   "homepage": "https://github.com/Christelle-12/Mealwebapp#readme",
   "devDependencies": {
-    "css-loader": "^6.7.3",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.5",
+    "babel-jest": "^27.4.6",
+    "css-loader": "^6.6.0",
     "file-loader": "^6.2.0",
+<<<<<<< HEAD
+    "jest": "^27.4.7",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+=======
+    "jest": "^29.5.0",
+    "jsdom": "^21.1.1",
     "style-loader": "^3.3.2",
     "webpack": "^5.81.0",
     "webpack-cli": "^5.0.2",
     "webpack-dev-server": "^4.13.3"
+>>>>>>> feature_finaltouch
   },
   "dependencies": {
+<<<<<<< HEAD
+    "html-webpack-plugin": "^5.5.2"
+=======
     "html-webpack-plugin": "^5.5.1"
+>>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
+>>>>>>> developer
   }
 }

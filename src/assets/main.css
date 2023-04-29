@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fff;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+
+  .header-container{
+    max-width: 1536px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #000;
+  }
+
+  .header-navbar {
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .restaurant-icon {
+    width: 40px;
+    margin-right: 20px;
+  }
+  
+  .main {
+    max-width: 1536px;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+  }
+  

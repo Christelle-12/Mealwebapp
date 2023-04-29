@@ -1,6 +1,14 @@
+<<<<<<< HEAD
+import getcategories from './meal.js';
+
+describe('getcategories', () => {
+  const meal_url = 'https://www.themealdb.com/api/json/v1/1';
+  
+=======
 import getcategories from './getcategories';
 
 describe('getcategories', () => {
+>>>>>>> developer
   it('should fetch a list of seafood meals', async () => {
     const mockResponse = {
       meals: [

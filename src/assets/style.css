@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #fff;
   display: flex;
@@ -24,14 +23,13 @@ body {
   flex-flow: row wrap;
   border-bottom: 0.09px solid #fff;
 }
-
 .header-navbar {
+  max-width: 1536px;
   padding: 4px;
   display: flex;
   padding-right: 30px;
   align-items: center;
 }
-
 .restaurant-icon {
   width: 60px;
   margin-right: 20px;
@@ -71,7 +69,6 @@ body {
   flex-flow: row wrap;
   list-style: none;
 }
-
 .meal-card {
   position: relative;
   display: flex;
@@ -106,12 +103,10 @@ body {
   align-self: center;
   padding: 10px;
 }
-
 .meal-item {
   flex-grow: 0;
   flex-basis: 100%;
 }
-
 .meal-interaction {
   padding: 8px;
   display: flex;
@@ -154,7 +149,6 @@ body {
   list-style: none;
   flex-direction: column;
 }
-
 .comment-head {
   display: flex;
   justify-content: space-between;
@@ -162,56 +156,88 @@ body {
   border-bottom: 1px solid #00f;
   padding: 10px;
 }
-
+<<<<<<< HEAD
 .comment-thumbail{
+=======
+
+.comment-thumbail {
+>>>>>>> feature_finaltouch
   max-width: 348px;
   max-height: 348px;
   height: auto;
   align-self: center;
   padding-bottom: 10px;
 }
-
+<<<<<<< HEAD
 .meal-image{
 width: 100%;
 height: auto;
 border-radius: 50%;
 }
-
 .button-close{
 border: none;
 font-size: 17px;
 font-weight: bold;
 background-color: transparent;
 }
-
 .comment-details{
   border-top:1px solid #00f;
+=======
+
+.meal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.button-close {
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.comment-details {
+  border-top: 1px solid #00f;
+>>>>>>> feature_finaltouch
   gap: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
-
+<<<<<<< HEAD
 .meal-desc{
+=======
+
+.meal-desc {
+>>>>>>> feature_finaltouch
   padding: 10px;
   font-size: 15px;
   font-style: italic;
 }
-
+<<<<<<< HEAD
 .add-comment{
+=======
+
+.add-comment {
+>>>>>>> feature_finaltouch
   padding: 16px;
   border: 1px solid #000;
   display: block;
   width: 100%;
 }
 
-.commet-item{
+.commet-item {
   padding-left: 10px;
   padding-bottom: 10px;
 }
-
+<<<<<<< HEAD
 .comment-form{
+=======
+
+.comment-form {
+>>>>>>> feature_finaltouch
   padding: 10px;
   display: flex;
   gap: 10px;
@@ -223,17 +249,18 @@ background-color: transparent;
   margin-top: 10px;
 }
 
-.comment-input{
+.comment-input {
   padding: 7px;
 }
 
-.comment-history{
+.comment-history {
   display: block;
   padding: 10px;
   line-height: 1.5rem;
   letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
 .d-popup header{
   display: none;
 }
@@ -247,5 +274,54 @@ display: none;
 }
 
 .d-none{
+=======
+.footer-container {
+  max-width: 1536px;
+  margin: 30px;
+  width: 100%;
+  background-color: #2196f3;
+  opacity: 0.8;
+  display: block;
+  border-top: 0.09px solid #fff;
+}
+
+.nav-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.dev-description{
+  display: flex;
+}
+
+.developer{
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.mit{
+  display: flex;
+  align-items: center;
+}
+
+.d-popup header {
+  display: none;
+}
+
+.d-popup > main > .meal-container {
+  display: none;
+}
+
+.d-popup footer {
+  display: none;
+}
+
+.d-none {
+>>>>>>> feature_finaltouch
   display: none;
 }
